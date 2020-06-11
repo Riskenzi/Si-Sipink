@@ -24,6 +24,7 @@
 	<array>
 		<string>group.org.silink.phone.linphoneExtension</string>
 		<string>group.org.silink.phone.msgNotification</string>
+		<string>group.org.silink.phone.msgNotificationContent</string>
 	</array>
 </dict>
 </plist>

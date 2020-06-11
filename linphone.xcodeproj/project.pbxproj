@@ -58,6 +58,9 @@
 		570742581D5A0691004B9C84 /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570742561D5A0691004B9C84 /* ShopView.xib */; };
 		570742611D5A09B8004B9C84 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5707425F1D5A09B8004B9C84 /* ShopView.m */; };
 		570742671D5A63DB004B9C84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570742661D5A63DB004B9C84 /* StoreKit.framework */; };
+		58F06B6B24923CF2001D77D4 /* color_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F06B6A24923CF1001D77D4 /* color_new.png */; };
+		58F06B6E2492744A001D77D4 /* color_I.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F06B6C24927448001D77D4 /* color_I.png */; };
+		58F06B6F2492744A001D77D4 /* color_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F06B6D24927448001D77D4 /* color_A.png */; };
 		58FFD0A9249131C200DCF525 /* splashscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FFD0A7249131C100DCF525 /* splashscreen@2x.png */; };
 		58FFD0AA249131C200DCF525 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FFD0A8249131C200DCF525 /* splashscreen.png */; };
 		58FFD0B1249131EB00DCF525 /* linphone_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FFD0AB249131E900DCF525 /* linphone_user@2x.png */; };
@@ -914,6 +917,9 @@
 		5707425F1D5A09B8004B9C84 /* ShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		570742601D5A09B8004B9C84 /* ShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
 		570742661D5A63DB004B9C84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		58F06B6A24923CF1001D77D4 /* color_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_new.png; sourceTree = "<group>"; };
+		58F06B6C24927448001D77D4 /* color_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_I.png; sourceTree = "<group>"; };
+		58F06B6D24927448001D77D4 /* color_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_A.png; sourceTree = "<group>"; };
 		58FFD0A7249131C100DCF525 /* splashscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashscreen@2x.png"; sourceTree = "<group>"; };
 		58FFD0A8249131C200DCF525 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
 		58FFD0AB249131E900DCF525 /* linphone_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linphone_user@2x.png"; sourceTree = "<group>"; };
@@ -2403,6 +2409,9 @@
 		633FEBE11D3CD5570014B822 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				58F06B6D24927448001D77D4 /* color_A.png */,
+				58F06B6C24927448001D77D4 /* color_I.png */,
+				58F06B6A24923CF1001D77D4 /* color_new.png */,
 				633FEBE21D3CD5570014B822 /* add_field_default.png */,
 				633FEBE31D3CD5570014B822 /* add_field_default@2x.png */,
 				633FEBE41D3CD5570014B822 /* add_field_over.png */,
@@ -3457,6 +3466,7 @@
 				633FEE521D3CD5590014B822 /* dialer_alt_back.png in Resources */,
 				633FEE341D3CD5590014B822 /* conference_exit_default.png in Resources */,
 				615A283E2180A2560060F920 /* invite_linphone.png in Resources */,
+				58F06B6F2492744A001D77D4 /* color_A.png in Resources */,
 				633FEF281D3CD55A0014B822 /* route_earpiece_default.png in Resources */,
 				633FEE4F1D3CD5590014B822 /* delete_field_over@2x.png in Resources */,
 				633FEE531D3CD5590014B822 /* dialer_alt_back@2x.png in Resources */,
@@ -3631,6 +3641,7 @@
 				633FEF041D3CD55A0014B822 /* options_selected.png in Resources */,
 				633FEEE61D3CD55A0014B822 /* numpad_9_over@2x.png in Resources */,
 				63E27A521C50EDB000D332AE /* hold.mkv in Resources */,
+				58F06B6B24923CF2001D77D4 /* color_new.png in Resources */,
 				633FEEDC1D3CD55A0014B822 /* numpad_8_default@2x.png in Resources */,
 				633FEDAE1D3CD5590014B822 /* call_add_default.png in Resources */,
 				61AEBEC42191D7D900F35E7F /* UIDevicesDetails.xib in Resources */,
@@ -3795,6 +3806,7 @@
 				633FEF081D3CD55A0014B822 /* options_start_conference_disabled.png in Resources */,
 				63F1DF511BCE986A00EDED90 /* UICallConferenceCell.xib in Resources */,
 				58FFD0B4249131EB00DCF525 /* linphone_user~ipad@2x.png in Resources */,
+				58F06B6E2492744A001D77D4 /* color_I.png in Resources */,
 				633FEE301D3CD5590014B822 /* color_H.png in Resources */,
 				633FEE7D1D3CD5590014B822 /* history_missed_disabled@2x.png in Resources */,
 				633FEE941D3CD55A0014B822 /* micro_default.png in Resources */,
@@ -4847,7 +4859,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
@@ -4970,7 +4982,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
@@ -5092,7 +5104,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
@@ -5213,7 +5225,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_CFLAGS = (
 					"-DBCTBX_LOG_DOMAIN=\\\"ios\\\"",
 					"-DCHECK_VERSION_UPDATE=FALSE",
@@ -5272,7 +5284,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.silink.phone.linphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5313,7 +5325,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.silink.phone.linphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5354,7 +5366,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.silink.phone.linphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5396,7 +5408,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = linphoneExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = org.silink.phone.linphoneExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5496,7 +5508,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/msgNotificationService/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5548,7 +5560,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/msgNotificationService/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5600,7 +5612,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/msgNotificationService/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5652,7 +5664,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/msgNotificationService/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5707,7 +5719,7 @@
 				INFOPLIST_FILE = msgNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5758,7 +5770,7 @@
 				INFOPLIST_FILE = msgNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5809,7 +5821,7 @@
 				INFOPLIST_FILE = msgNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -5860,7 +5872,7 @@
 				INFOPLIST_FILE = msgNotificationContent/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited)";

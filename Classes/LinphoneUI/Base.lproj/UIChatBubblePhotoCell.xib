@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -110,7 +108,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <accessibility key="accessibilityConfiguration" label="Cancel"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <state key="normal" title="CANCEL" backgroundImage="color_I.png">
+                                    <state key="normal" title="CANCEL" backgroundImage="color_new.png">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="highlighted" backgroundImage="color_M.png"/>
@@ -125,7 +123,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <accessibility key="accessibilityConfiguration" label="Cancel"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <state key="normal" title="PLAY" backgroundImage="color_I.png">
+                            <state key="normal" title="PLAY" backgroundImage="color_new.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <state key="highlighted" backgroundImage="color_M.png"/>
@@ -160,8 +158,10 @@
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGl-nl-xIE" userLabel="fileButton">
                                     <rect key="frame" x="180" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="1" green="0.39905477280000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="Open"/>
+                                    <color key="backgroundColor" red="0.21176470589999999" green="0.1450980392" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Open">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
                                     <connections>
                                         <action selector="onFileClick:" destination="-1" eventType="touchUpInside" id="JRN-AA-UEJ"/>
                                     </connections>
@@ -191,12 +191,12 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="avatar.png" width="259" height="259"/>
-        <image name="chat_read.png" width="25" height="25"/>
+        <image name="avatar.png" width="414.39999389648438" height="414.39999389648438"/>
+        <image name="chat_read.png" width="20" height="20"/>
         <image name="color_A.png" width="2" height="2"/>
         <image name="color_G.png" width="2" height="2"/>
-        <image name="color_I.png" width="2" height="2"/>
         <image name="color_M.png" width="2" height="2"/>
-        <image name="linphone_logo.png" width="26" height="26"/>
+        <image name="color_new.png" width="2" height="2"/>
+        <image name="linphone_logo.png" width="12" height="13.920000076293945"/>
     </resources>
 </document>
