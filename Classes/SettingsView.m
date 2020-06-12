@@ -133,7 +133,7 @@
 		[((IASKSwitchEx *)cell.accessoryView) addTarget:self
 												 action:@selector(toggledValue:)
 									   forControlEvents:UIControlEventValueChanged];
-		[((IASKSwitchEx *)cell.accessoryView) setOnTintColor:LINPHONE_MAIN_COLOR];
+        [((IASKSwitchEx *)cell.accessoryView) setOnTintColor:[UIColor greenColor] /*LINPHONE_MAIN_COLOR*/];
 		cell.selectionStyle = UITableViewCellSelectionStyleNone;
 		cell.textLabel.minimumScaleFactor = kIASKMinimumFontSize / [UIFont systemFontSize];
 		cell.detailTextLabel.minimumScaleFactor = kIASKMinimumFontSize / [UIFont systemFontSize];
@@ -234,7 +234,12 @@
 
 	if ([cell isKindOfClass:[IASKPSTextFieldSpecifierViewCell class]]) {
 		UITextField *field = ((IASKPSTextFieldSpecifierViewCell *)cell).textField;
-		[field setTextColor:LINPHONE_MAIN_COLOR];
+        if (@available(iOS 11.0, *)) {
+            [field setTextColor: [UIColor colorNamed:@"color_global_app"]/*LINPHONE_MAIN_COLOR*/];
+        } else {
+            [field setTextColor: [UIColor blackColor]];/*LINPHONE_MAIN_COLOR*/
+            // Fallback on earlier versions
+        }
 	}
 
 	if ([cell isKindOfClass:[IASKPSTitleValueSpecifierViewCell class]]) {
