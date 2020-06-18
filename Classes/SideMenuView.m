@@ -74,7 +74,11 @@
 		LinphoneAddress *addr = linphone_core_get_primary_contact_parsed(LC);
 		if (addr) {
 			char *as_string = linphone_address_as_string(addr);
-			_addressLabel.text = [NSString stringWithFormat:@"%s", as_string];
+           // "\"Linphone iPhone\" <sip:linphone.iphone@192.168.1.146:63563>"
+            NSString * test = [NSString stringWithFormat:@"%s", as_string];
+            NSString * result = [test stringByReplacingOccurrencesOfString:@"Linphone iPhone" withString:@"Sipink iPhone"];
+            NSString * result2 = [result stringByReplacingOccurrencesOfString:@"linphone" withString:@"sipink"];
+            _addressLabel.text = result2;
 			ms_free(as_string);
 			linphone_address_unref(addr);
 		} else {
