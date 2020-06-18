@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "Si-Sipink.app"
-               BlueprintName = "linphone"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               BlueprintName = "Sipink"
+               ReferencedContainer = "container:Sipink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "F0F951FF1A6AEB1000254160"
                BuildableName = "linphoneTests.xctest"
                BlueprintName = "linphoneTests"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:Sipink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Si-Sipink.app"
-            BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            BlueprintName = "Sipink"
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -58,7 +58,7 @@
                BlueprintIdentifier = "F0F951FF1A6AEB1000254160"
                BuildableName = "linphoneTests.xctest"
                BlueprintName = "linphoneTests"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:Sipink.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -79,8 +79,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Si-Sipink.app"
-            BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            BlueprintName = "Sipink"
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -110,8 +110,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Si-Sipink.app"
-            BlueprintName = "linphone"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            BlueprintName = "Sipink"
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

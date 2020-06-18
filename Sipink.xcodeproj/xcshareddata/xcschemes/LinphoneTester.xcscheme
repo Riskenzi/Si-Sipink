@@ -17,7 +17,7 @@
                BlueprintIdentifier = "F0BB8BD41936208100974404"
                BuildableName = "liblinphoneTester.app"
                BlueprintName = "liblinphoneTester"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:Sipink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,7 @@
             BlueprintIdentifier = "F0BB8BD41936208100974404"
             BuildableName = "liblinphoneTester.app"
             BlueprintName = "liblinphoneTester"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -44,7 +44,7 @@
                BlueprintIdentifier = "F08F118319C09C6A007D70C2"
                BuildableName = "liblinphoneTesterTests.xctest"
                BlueprintName = "liblinphoneTesterTests"
-               ReferencedContainer = "container:linphone.xcodeproj">
+               ReferencedContainer = "container:Sipink.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "F0BB8BD41936208100974404"
             BuildableName = "liblinphoneTester.app"
             BlueprintName = "liblinphoneTester"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -83,7 +83,7 @@
             BlueprintIdentifier = "F0BB8BD41936208100974404"
             BuildableName = "liblinphoneTester.app"
             BlueprintName = "liblinphoneTester"
-            ReferencedContainer = "container:linphone.xcodeproj">
+            ReferencedContainer = "container:Sipink.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

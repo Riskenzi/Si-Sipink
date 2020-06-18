@@ -184,7 +184,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C04AB537-2590-4DAB-999A-20BD137437F7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PhoneMainView.m"
@@ -216,7 +216,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0D06C4F8-D065-436B-9150-A8E968CDD41F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PhoneMainView.m"
@@ -232,7 +232,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "602D0F14-B949-4BAF-85AA-97A5CECBF0F7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PhoneMainView.m"
@@ -248,7 +248,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6F5BDB24-09A4-4A38-BFDF-C4A0D9AE1188"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/PhoneMainView.m"
@@ -276,12 +276,12 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - 39ffe84d2f7c8e69"
+                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - 146d1643e71db47d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[PhoneMainView updateStatusBar:]"
-                  moduleName = "Si-Sipink"
+                  moduleName = "Sipink"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/valerii_melnykov/Desktop/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
                   startingColumnNumber = "9223372036854775807"
@@ -291,12 +291,12 @@
                   offsetFromSymbolStart = "616">
                </Location>
                <Location
-                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - c58cb7c7cc703e42"
+                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - e81e49c904110456"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__33-[PhoneMainView updateStatusBar:]_block_invoke.322"
-                  moduleName = "Si-Sipink"
+                  moduleName = "Sipink"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/valerii_melnykov/Desktop/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
                   startingColumnNumber = "9223372036854775807"
@@ -360,7 +360,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BAD378A8-C605-40FC-91E1-7ED4AABD7F04"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/LinphoneManager.m"
@@ -376,7 +376,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8F6FF47D-86B2-49CA-A4AC-51ABAE1C1144"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/LinphoneManager.m"
