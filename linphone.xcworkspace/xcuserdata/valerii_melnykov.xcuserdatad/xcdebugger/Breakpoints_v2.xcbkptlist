@@ -276,34 +276,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - 146d1643e71db47d"
+                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - 45798e2e604cbb5a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[PhoneMainView updateStatusBar:]"
                   moduleName = "Sipink"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valerii_melnykov/Desktop/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
+                  urlString = "file:///Users/valerii_melnykov/Desktop/Work%20Projects/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "610"
                   endingLineNumber = "610"
-                  offsetFromSymbolStart = "616">
+                  offsetFromSymbolStart = "606">
                </Location>
                <Location
-                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - e81e49c904110456"
+                  uuid = "E8A21263-A56F-4818-B3F6-7EA39CAE8F1D - b90ad1a483400b71"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__33-[PhoneMainView updateStatusBar:]_block_invoke.322"
                   moduleName = "Sipink"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/valerii_melnykov/Desktop/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
+                  urlString = "file:///Users/valerii_melnykov/Desktop/Work%20Projects/Si-Sipink(2020)/Si-Sipink/Classes/PhoneMainView.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "610"
                   endingLineNumber = "610"
-                  offsetFromSymbolStart = "40">
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
          </BreakpointContent>

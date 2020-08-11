@@ -1,17 +1,17 @@
 PODS:
-  - "linphone-sdk (4.4.0-beta.38+097bba1)":
-    - "linphone-sdk/all-frameworks (= 4.4.0-beta.38+097bba1)"
-    - "linphone-sdk/app-extension (= 4.4.0-beta.38+097bba1)"
-    - "linphone-sdk/app-extension-swift (= 4.4.0-beta.38+097bba1)"
-    - "linphone-sdk/basic-frameworks (= 4.4.0-beta.38+097bba1)"
-    - "linphone-sdk/swift (= 4.4.0-beta.38+097bba1)"
-  - "linphone-sdk/all-frameworks (4.4.0-beta.38+097bba1)"
-  - "linphone-sdk/app-extension (4.4.0-beta.38+097bba1)"
-  - "linphone-sdk/app-extension-swift (4.4.0-beta.38+097bba1)":
+  - "linphone-sdk (4.4.2-pre.1+80c7ed5)":
+    - "linphone-sdk/all-frameworks (= 4.4.2-pre.1+80c7ed5)"
+    - "linphone-sdk/app-extension (= 4.4.2-pre.1+80c7ed5)"
+    - "linphone-sdk/app-extension-swift (= 4.4.2-pre.1+80c7ed5)"
+    - "linphone-sdk/basic-frameworks (= 4.4.2-pre.1+80c7ed5)"
+    - "linphone-sdk/swift (= 4.4.2-pre.1+80c7ed5)"
+  - "linphone-sdk/all-frameworks (4.4.2-pre.1+80c7ed5)"
+  - "linphone-sdk/app-extension (4.4.2-pre.1+80c7ed5)"
+  - "linphone-sdk/app-extension-swift (4.4.2-pre.1+80c7ed5)":
     - linphone-sdk/app-extension
-  - "linphone-sdk/basic-frameworks (4.4.0-beta.38+097bba1)":
+  - "linphone-sdk/basic-frameworks (4.4.2-pre.1+80c7ed5)":
     - linphone-sdk/app-extension
-  - "linphone-sdk/swift (4.4.0-beta.38+097bba1)":
+  - "linphone-sdk/swift (4.4.2-pre.1+80c7ed5)":
     - linphone-sdk/app-extension-swift
     - linphone-sdk/basic-frameworks
   - SVProgressHUD (2.2.5)
@@ -27,9 +27,9 @@ SPEC REPOS:
     - linphone-sdk
 
 SPEC CHECKSUMS:
-  linphone-sdk: 6a4521df8b452cead23048e9bec1be0ef770d448
+  linphone-sdk: 769deef773e0c64dff4b07e4ab826c8e82b86909
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 0820fb5f24c2bf9e858ccd9a816caa75af34e097
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0.beta.1
